@@ -1,2 +1,1 @@
-# 2048
-## The Byte Game play on website
+# [Play](https://shivashirsath.github.io/2048)
