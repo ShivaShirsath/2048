@@ -52,7 +52,7 @@ h1.title {
 .score-container, .best-container {
   position: relative;
   display: inline-block;
-  background: #bbada0;
+  background: #FF8800;
   padding: 15px 25px;
   font-size: 25px;
   height: 25px;
@@ -71,7 +71,7 @@ h1.title {
   font-size: 13px;
   line-height: 13px;
   text-align: center;
-  color: #eee4da; }
+  color: #000000; }
 .score-container .score-addition, .best-container .score-addition {
   position: absolute;
   right: 30px;
