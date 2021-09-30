@@ -1,9 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Cutive+Mono&display=swap');
 html, body {
   margin: 0;
   padding: 0;
   background: #000000;
   color: #776e65;
-  font-family: "Helvetica Neue", Arial, sans-serif;
+  font-family: 'Cutive Mono', monospace;
   font-size: 18px; }
 
 body {
@@ -115,7 +116,8 @@ hr {
   margin-bottom: 30px; }
 
 .container {
-  width: 500px;
+  width: 100vw;
+  height: 100vh;
   margin: 0 auto; }
 
 @-webkit-keyframes fade-in {
