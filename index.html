@@ -2,6 +2,12 @@
 <html>
 
 <head>
+  <script>
+    window.onload = function () {
+      document.getElementById('loader').style.display = "none";
+      document.getElementById('main').style.display = "block";
+    };
+  </script>
   <meta charset="utf-8" />
   <title>2048</title>
   <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
@@ -10,11 +16,13 @@
   <link href="style/main.css" rel="stylesheet" type="text/css" />
   <meta name="viewport"
     content="width=device-width, target-densitydpi=16dpi, initial-scale=1.0, maximum-scale=1, user-scalable=no, minimal-ui" />
-
 </head>
 
 <body>
-  <div class="container">
+  <div id="loader">
+    <img src="icons/loader.gif" />
+  </div>
+  <div id="main" class="container">
     <h1 style="padding: 0vh 15vw; font-size: 2.5vh; font-weight: bold; margin: 1vh 0 0 0;">2048</h1>
     <hr>
     <div class="scores-container">
@@ -34,7 +42,6 @@
           <a class="retry-button">Try again</a>
         </div>
       </div>
-
       <div class="grid-container">
         <div class="grid-row">
           <div class="grid-cell"></div>
@@ -61,10 +68,8 @@
           <div class="grid-cell"></div>
         </div>
       </div>
-
       <div class="tile-container"></div>
     </div>
-
     <div class="game-explanation">
       <strong class="important">How to play:</strong> Use your
       <strong>arrow keys</strong> to move the tiles. When two tiles with the
