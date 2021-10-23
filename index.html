@@ -14,8 +14,7 @@
   <link rel="icon" href="favicon.ico" type="image/x-icon">
   <link rel="manifest" href="manifest.webmanifest" />
   <link href="style/main.css" rel="stylesheet" type="text/css" />
-  <meta name="viewport"
-    content="width=device-width, target-densitydpi=16dpi, initial-scale=1.0, maximum-scale=1, user-scalable=no, minimal-ui" />
+  <meta name="viewport" content="width=device-width, height=device-height, user-scalable=no, minimal-ui" />
 </head>
 
 <body>
@@ -29,10 +28,9 @@
       <div class="score-container">0</div>
       <div class="best-container">0</div>
     </div>
-    <hr>
-    <div class="above-game" style="margin: 0 1vw 0 1vw;">
+    <div class="above-game">
+      <a>Join the numbers & get to 2048 tile!</a>
       <a class="restart-button">New Game</a>
-      <a><br>Join the numbers & get to 2048 tile!</a>
     </div>
     <hr>
     <div class="game-container">
@@ -75,7 +73,6 @@
       <strong>arrow keys</strong> to move the tiles. When two tiles with the
       same number touch, they <strong>merge into one!</strong>
     </div>
-    <hr />
   </div>
   <script src="index.js" type="module"></script>
   <script src="js/bind_polyfill.js"></script>
